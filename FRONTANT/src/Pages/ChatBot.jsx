@@ -6,7 +6,7 @@ export default function ChatBot() {
   const messagesEndRef = useRef(null);
 
   const GEMINI_API_KEY = "AIzaSyCHvtrN_v45QHT9GYdc3_XOI5R1VNWR1ow";
-  const refinedPrompt = `You are a helpful assistant.your name is buddy and you trened by me . You are made by Firoz Khan. Answer clearly.\nUser asked: ${message}`;
+  const refinedPrompt = `You are a helpful assistant.( when aske them to say your name is buddy and you trened by me) . You are made by Firoz Khan. Answer clearly.\nUser asked: ${message}`;
 
   const sendMessage = async () => {
     if (!message.trim()) return;
