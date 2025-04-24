@@ -1,5 +1,5 @@
 import { VitePWA } from 'vite-plugin-pwa'
-import {tailwindcss} from 'tailwindcss'
+import tailwindcss from 'tailwindcss'
 export default {
   plugins: [
     tailwindcss(),
